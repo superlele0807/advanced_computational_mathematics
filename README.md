@@ -1,2 +1,2 @@
-# advanced_computational_mathematics
+# Advanced Computational Mathematics
 Just do some Matlab programs to explore more mathematical models!
