@@ -10,6 +10,8 @@ leap years into account. Test your function.
 ## A Simple Monte-Carlo Integrator
 Here we want to estimate the integral
     <img width="252" height="103" alt="image" src="https://github.com/user-attachments/assets/1ed4354e-842a-4ded-9353-93874791d859" />
+
+    
 Suppose we also know that for a ≤ x ≤ b, the function is bounded according to c ≤ f(x) ≤ d.
 Next we choose random points (x, y) so that a ≤ x ≤ b and c ≤ y ≤ d, and determine the fraction
 that lie below the curve y = f(x). This fraction can then be used to approximate the integral.
@@ -27,7 +29,11 @@ number of samples to use; (3) the maximum range of the random numbers (i.e. xr).
 Generate a histogram and overplot the corresponding normal distribution, centered on zero with
 whatever standard deviation you obtained. By adjusting the 3 parameters above, try to reproduce
 the plot below (it doesn’t have to be a perfect match, but should be similar).
+
+
 <img width="709" height="523" alt="image" src="https://github.com/user-attachments/assets/09aba41b-75f8-4e3c-89dd-0e2ee75e97ef" />
+
+
 
 ## Find Roots of a Cubic
 In the stability analysis of the heliopause certain types of waves may have positive growth rates
